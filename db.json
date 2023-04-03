@@ -1,0 +1,8 @@
+{
+  "posts": [
+    { "producto": "Celulares" },
+    { "producto": "Tablets" },
+    { "producto": "Audifonos" },
+    { "producto": "Impresoras" }
+  ]
+}
