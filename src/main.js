@@ -1,7 +1,8 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 
-import "../public/scss/custom.css";
+import "./styles/custom.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap";
 import router from "./router";
 

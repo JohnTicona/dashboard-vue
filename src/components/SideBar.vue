@@ -1,7 +1,25 @@
 <template>
   <aside class="sidebar min-vh-100">
-    <router-link to="/">Go to Home</router-link>
-    <router-link to="/about">Go to About</router-link>
-    <p>hola</p>
+    <SideHeader />
+    <SideBody />
   </aside>
 </template>
+
+<script>
+import options from "../data/menuData";
+import SideBody from "./SideBody.vue";
+import SideHeader from "./SideHeader.vue";
+
+export default {
+  components: {
+    SideHeader,
+    SideBody,
+  },
+
+  setup() {
+    return {
+      options,
+    };
+  },
+};
+</script>
