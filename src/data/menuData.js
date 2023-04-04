@@ -15,7 +15,7 @@ const options = [
     subMenu: [
       { id: "s1", subtitle: "Products", url: "/" },
       { id: "s2", subtitle: "Orders", url: "/about" },
-      { id: "s3", subtitle: "Transactions", url: "/" },
+      { id: "s3", subtitle: "Transactions", url: "/table" },
       { id: "s4", subtitle: "Details", url: "/about" },
     ],
   },
