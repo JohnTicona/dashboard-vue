@@ -1,6 +1,6 @@
 <template>
   <div class="row mt-3">
-    <div class="col-md-6 offset-3">
+    <div class="col-md-10 offset-1">
       <div class="card border border-dark">
         <div class="card-header bg-dark"></div>
         <div class="card-body">
@@ -66,9 +66,9 @@ import { Chart as ChartJS, Title, Tooltip, Legend, BarElement, CategoryScale, Li
 import axios from 'axios'
 ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale)
 
-const getPosts = await axios.get('http://localhost:4000/posts');
-var datos = getPosts.data
-console.log(getPosts.data)
+// const getPosts = await axios.get('http://localhost:4000/posts');
+// var datos = getPosts.data
+// console.log(getPosts.data)
 export default {
 
   name: 'BarChart',
